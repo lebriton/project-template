@@ -36,7 +36,7 @@ npx skills add https://github.com/lebriton/skills --skill git-workflow
 npx skills add https://github.com/casey/just --skill just
 
 # Generate the .gitignore file
-Visit https://www.toptal.com/developers/gitignore/ to get a tailored version for your project.
+wget https://www.toptal.com/developers/gitignore/api/<your-technologies> -O .gitignore
 ```
 
 # Title 1
