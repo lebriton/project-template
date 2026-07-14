@@ -30,9 +30,10 @@ cd <new-project-name>
 rm -rf .git
 
 # Install skills
-npx skills add https://github.com/github/awesome-copilot --skill conventional-commit
 npx skills add https://github.com/lebriton/skills --skill bash-scripting
+npx skills add https://github.com/github/awesome-copilot --skill conventional-commit
 npx skills add https://github.com/lebriton/skills --skill git-workflow
+npx skills add https://github.com/casey/just --skill just
 ```
 
 # Title 1
