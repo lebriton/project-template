@@ -4,3 +4,4 @@ pre-commit:
 setup:
   bin/check-requirements
   pre-commit install
+  pre-commit install-hooks
