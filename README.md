@@ -34,6 +34,10 @@ npx skills add https://github.com/lebriton/skills --skill bash-scripting
 npx skills add https://github.com/github/awesome-copilot --skill conventional-commit
 npx skills add https://github.com/lebriton/skills --skill git-workflow
 npx skills add https://github.com/casey/just --skill just
+
+# Generate the .gitignore file
+
+Visit https://www.toptal.com/developers/gitignore/ to get a tailored version for your project.
 ```
 
 # Title 1
