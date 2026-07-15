@@ -1,7 +1,16 @@
+devpod-down *args:
+    devpod down . {{args}}
+
+devpod-ssh *args:
+    ssh project-template.devpod {{args}}
+
+devpod-up *args:
+    devpod up . --ide none {{args}}
+
 pre-commit:
-  pre-commit run --all-files
+    pre-commit run --all-files
 
 setup:
-  bin/check-requirements
-  pre-commit install
-  pre-commit install-hooks
+    bin/check-requirements
+    pre-commit install
+    pre-commit install-hooks
