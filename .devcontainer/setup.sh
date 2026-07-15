@@ -1,6 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
+export PATH="$HOME/.local/bin:$PATH"
+
 # Install system dependencies
 sudo apt-get update && sudo apt-get install -y --no-install-recommends \
     just \
