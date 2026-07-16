@@ -10,6 +10,3 @@
 
 - All comments in code and all commit messages must be written in English only. French is not allowed.
 
-## Justfile
-
-- Tasks must be sorted in alphabetical order.
