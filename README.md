@@ -39,13 +39,11 @@ npx skills add https://github.com/lebriton/skills --skill justfile-conventions
 wget https://www.toptal.com/developers/gitignore/api/<your-technologies> -O .gitignore
 ```
 
-# Title 1
+# Documentation
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-# Title 1
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Nulla quis sem at nibh elementum imperdiet.
+- [Foo](docs/foo.md)
+- [Bar](docs/bar.md)
+- [Baz](docs/baz.md)
 
 <br>
 
