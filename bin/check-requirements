@@ -19,9 +19,8 @@ echo "Vérification des prérequis Gaia"
 echo ""
 
 ok=0
-check toolA || ok=1
-check toolB || ok=1
-check toolC || ok=1
+check just || ok=1
+check pre-commit || ok=1
 
 echo ""
 if [ "$ok" -eq 0 ]; then
