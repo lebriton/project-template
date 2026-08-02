@@ -8,6 +8,10 @@ sudo apt-get update && sudo apt-get install -y --no-install-recommends \
     just \
     tmux
 
+# Install pip packages
+# NOTE: Install separately to avoid pip dependency resolution backtracking
+pip install --break-system-packages pre-commit
+
 # Configure project
 just setup
 
