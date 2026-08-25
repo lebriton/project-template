@@ -17,29 +17,33 @@
 # How to use this template
 
 ```bash
+PROJECT_NAME="my-project"
+# Find your technologies at https://www.toptal.com/developers/gitignore
+TECHNOLOGIES="python,docker,go"
+
 # Clone the repository (SSH)
-git clone git@github.com:lebriton/project-template.git <new-project-name>
+git clone git@github.com:lebriton/project-template.git $PROJECT_NAME
 
 # OR clone the repository (HTTPS)
-git clone https://github.com/lebriton/project-template.git <new-project-name>
+git clone https://github.com/lebriton/project-template.git $PROJECT_NAME
 
 # Enter the project directory
-cd <new-project-name>
+cd $PROJECT_NAME
 
 # Rename the devpod to match the project name
-sed -i "s/project-template/<new-project-name>/g" .devcontainer/devcontainer.json Justfile
+sed -i "s/project-template/$PROJECT_NAME/g" .devcontainer/devcontainer.json Justfile
 
 # Remove the existing git history
 rm -rf .git
 
 # Install skills
-npx skills add https://github.com/lebriton/skills --skill bash-scripting
-npx skills add https://github.com/github/awesome-copilot --skill conventional-commit
-npx skills add https://github.com/casey/just --skill just
-npx skills add https://github.com/lebriton/skills --skill justfile-conventions
+npx skills add https://github.com/lebriton/skills --skill bash-scripting -y
+npx skills add https://github.com/github/awesome-copilot --skill conventional-commit -y
+npx skills add https://github.com/casey/just --skill just -y
+npx skills add https://github.com/lebriton/skills --skill justfile-conventions -y
 
 # Generate the .gitignore file
-wget https://www.toptal.com/developers/gitignore/api/<your-technologies> -O .gitignore
+wget https://www.toptal.com/developers/gitignore/api/$TECHNOLOGIES -O .gitignore
 ```
 
 # Documentation
