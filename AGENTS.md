@@ -10,3 +10,8 @@
 
 - All comments in code and all commit messages must be written in English only. French is not allowed.
 
+## Documentation
+
+- Documentation must be stored in `docs/*.md` files.
+- Each documentation file must be linked in the README under the `# Documentation` section.
+- Links in the `# Documentation` section must be sorted alphabetically.
