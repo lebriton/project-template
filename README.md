@@ -26,6 +26,9 @@ git clone https://github.com/lebriton/project-template.git <new-project-name>
 # Enter the project directory
 cd <new-project-name>
 
+# Rename the devpod to match the project name
+sed -i "s/project-template/<new-project-name>/g" .devcontainer/devcontainer.json Justfile
+
 # Remove the existing git history
 rm -rf .git
 
