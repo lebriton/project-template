@@ -37,6 +37,7 @@ sed -i "s/project-template/$PROJECT_NAME/g" .devcontainer/devcontainer.json Just
 rm -rf .git
 
 # Install skills
+# Find more at https://www.skills.sh/ and https://github.com/lebriton/skills
 npx skills add https://github.com/lebriton/skills --skill bash-scripting -y
 npx skills add https://github.com/github/awesome-copilot --skill conventional-commit -y
 npx skills add https://github.com/casey/just --skill just -y
