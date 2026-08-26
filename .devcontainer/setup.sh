@@ -5,9 +5,13 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # Install system dependencies
 sudo apt-get update && sudo apt-get install -y --no-install-recommends \
+    git-lfs \
     just \
     python3-pip \
     tmux
+
+# Install git lfs
+git lfs install
 
 # Install pip packages
 # NOTE: Install separately to avoid pip dependency resolution backtracking
