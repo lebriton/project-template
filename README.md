@@ -36,6 +36,9 @@ sed -i "s/project-template/$PROJECT_NAME/g" .devcontainer/devcontainer.json Just
 # Remove the existing git history
 rm -rf .git
 
+# Initialize a new git repository
+git init -b main
+
 # Install skills
 # Find more at https://www.skills.sh/ and https://github.com/lebriton/skills
 npx skills add https://github.com/lebriton/skills --skill bash-scripting -y
